@@ -1,0 +1,112 @@
+body{
+	background-color: #808B96;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	line-height:1em;
+	font-weight:bold;
+	font-size: 18px;
+}
+
+.container{
+	width:100%;
+	height: 323px;
+}
+
+.login{
+	box-shadow: inset 0 0 5px #2C3E50;
+	border-radius: 10px;
+	margin: 10% auto;
+	width: 500px;
+	height: 323px;
+}
+
+.form-header{
+	width:100%;
+	height:10%;
+	background-color: #2C3E50;
+	border-bottom: 2px solid #a1a1a1;
+	text-align: center;
+	padding: 3% 0 0 0;
+	border-radius:10px 10px 0 0;
+	color: white;
+}
+
+form{
+	background-color: #eff0f2;
+	padding: 5% 5%;
+	border-radius: 0 0 10px 10px;
+}
+
+/*Username and Password*/
+input[type="text"],
+input[type="password"]{
+	font-size: 20px;
+	outline: none;
+	padding: 5px -5px;
+	width: 450px;
+	margin: 5% 0 0 0;
+	border: 4px double #dedee0;
+	font-family: caption;
+	text-align: left-side;
+	color: #2C3E50;
+	opacity: 1;
+}
+
+
+
+input[type="text"]:focus, /*when the user clicks in the text and pass box*/
+input[type="password"]:focus{
+	border: 0 0 5 px white;
+	box-shadow: inset 0 0 10px white;
+}
+
+.button{
+	outline:none;
+	color: #2C3E50;
+	font-weight:bold;
+	background-color: #D5D8DC;
+	cursor: pointer;
+	border: 2px solid #a1a1a1;
+	text-align: center;
+	margin: 45px 0 0 0;
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 25px;
+}
+
+.button:hover{
+	color: white;
+	background-color: #2C3E50;
+	box-shadow: inset 0 0 5px #000;
+}
+
+.check{
+	margin: 5% 0 0 5px;
+}
+
+.rem{ /*remember me text*/
+	margin: 5% 0 0 5px;
+	font-size:15px;
+}
+
+.forgot{
+	width: 100%;
+	font-size:14px;
+	padding-top:10px;
+}
+
+.forgot a{
+	margin: 0 0 0 35%;
+}
+
+
+/*forgot your password affects*/
+a:hover{
+	color: #fff;
+}
+
+a, a:active a:visited a:link{
+	color: #dedee0;
+	font-size: 16px;
+	text-decoration: none;
+}
