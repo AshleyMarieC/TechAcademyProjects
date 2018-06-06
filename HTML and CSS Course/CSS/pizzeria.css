@@ -1,0 +1,75 @@
+body{
+	margin:0;
+	background-image: url("../images/pizza.png")
+}
+.body{
+	width:70%;
+	margin-left:23%;
+	margin-top:50px;
+}
+
+
+/*Toppings Containers*/
+.containers{
+	height: 250px;
+	width:235px;
+	background-color:pink;
+	float: left;
+	margin:8px;
+	border-radius:7px;
+	border: 3px solid black;
+}
+
+.title{
+	text-align:center;
+	border-bottom: 3px solid black;
+}
+.choice{
+	margin:7px 0 0 2px;
+}
+
+.title p {
+	margin: 2px;
+	font-size:14px;
+	padding-top:0;
+}
+h3{
+	margin-bottom:2px;
+}
+
+/*Submit Button*/
+#btnOrder{
+	font-size:23px;
+	padding:6px;
+	margin-top:7px;
+	border-radius:7px;
+	box-shadow: 5px 5px grey;
+	
+}
+button:focus {outline:0;}
+
+.submit{
+	 margin-left:35%;
+}
+
+/*Cart*/
+
+#cart{
+	width:550px;
+	height:250px;
+	background-color:pink;
+	border-radius:7px;
+	border: 3px solid black;
+	margin:20px 0 20px 125px;
+	overflow: auto;
+	float: left;
+}
+
+.receipt{
+	text-align:center;
+	border-bottom: 2px solid black;
+}
+
+.order{
+	margin-left:15px;
+}
