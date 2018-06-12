@@ -1,10 +1,26 @@
 
 /*CREATE DATABASE*/
-CREATE Database db_LibraryMS
+CREATE Database db_LibraryMS2;
 
-USE db_LibraryMS;
+USE db_LibraryMS2;
 
 /*CREATE TABLES*/
+
+CREATE TABLE Publisher (
+	Name VARCHAR (150) Primary Key NOT NULL,
+	Address VARCHAR (150) NULL,
+	Phone VARCHAR (50) NULL,
+);
+
+ INSERT INTO Publisher
+ VALUES 
+ ('Penguin', 'New York', '785-896-9856'),
+ ('Random House', 'New York', '456-123-7898'),
+ ('Simon and Schuster', 'New York', '785-456-9856'),
+ ('HarperCollins', 'LA', '258-896-9856'),
+ ('Hachette', 'Seattle', '206-896-9856');
+
+SELECT * FROM Publisher;
 
 CREATE TABLE Book (
 	BookID INT IDENTITY(100,1) Primary Key NOT NULL,
@@ -13,67 +29,6 @@ CREATE TABLE Book (
 	FOREIGN KEY (PublisherName) REFERENCES Publisher(Name) 
 	);
 
-SELECT * FROM Book;
-
-
-CREATE TABLE Publisher (
-	Name VARCHAR (150) Primary Key NOT NULL,
-	Address VARCHAR (150) NULL,
-	Phone VARCHAR (50) NULL,
-);
-
-SELECT * FROM Publisher;
-
-CREATE TABLE Book_Authors (
-	AuthorName VARCHAR (150) NULL,
-	BookID INT
-	FOREIGN KEY (BookID) REFERENCES Book(BookID) 
-	);
-
-SELECT * FROM Book_Authors;
-
-CREATE TABLE Library_Branch (
-	BranchID INT IDENTITY(10,1) Primary Key NOT NULL,
-	BranchName VARCHAR (150) NULL,
-	Address VARCHAR (500) NULL,
-);
-
-SELECT * FROM Library_Branch;
-
-CREATE TABLE Book_Copies(
-	BookID INT
-	FOREIGN KEY (BookID) REFERENCES Book(BookID), 
-	BranchID INT
-	FOREIGN KEY (BranchID) REFERENCES Library_Branch(BranchID), 
-	No_Of_Copies INT NULL
-);
-
-SELECT * FROM Book_Copies;
-
-CREATE TABLE Borrower (
-	CardNo INT IDENTITY (23,1) PRIMARY KEY,
-	Name VARCHAR (150) NOT NULL,
-	Address VARCHAR (150) NULL,
-	Phone VARCHAR (50) NULL,
-);
-
-SELECT * FROM Borrower;
-
-CREATE TABLE Book_Loans(
-	BookID INT
-	FOREIGN KEY (BookID) REFERENCES Book(BookID), 
-	BranchID INT
-	FOREIGN KEY (BranchID) REFERENCES Library_Branch(BranchID),
-	CardNo INT 
-	FOREIGN KEY (CardNo) REFERENCES Borrower(CardNo),
-	DateOut DATE NULL,
-	DueDate DATE NULL,
-);
-
-SELECT * FROM Book_Loans;
-
-
-/*Add Info to Tables*/
 INSERT INTO Book 
 VALUES 
 ('Harry Potter Year 7','Penguin'),
@@ -94,12 +49,48 @@ VALUES
  ('To Kill A Mockingbird','Hachette'),
  ('Alice In Wonderland','HarperCollins'),
  ('Lord of the Flies','HarperCollins'),
- ('The Lord of The Rings','Random House'),
+ ('The Lost Tribe','Random House'),
  ('Game of Thrones','Simon and Schuster');
 
-UPDATE Book
-SET Title = 'The Lost Tribe'
-WHERE BookID = 164;
+SELECT * FROM Book;
+
+CREATE TABLE Book_Authors (
+	AuthorName VARCHAR (150) NULL,
+	BookID INT
+	FOREIGN KEY (BookID) REFERENCES Book(BookID) 
+	);
+
+ INSERT INTO Book_Authors
+ VALUES 
+ ('J.K Rowling','100'),
+ ('Tech Academy','101'),
+ ('Frank Baum','102'),
+ ('J.K Rowling','103'), 
+ ('J.K Rowling','104'), 
+ ('J.K Rowling','105'), 
+ ('J.K Rowling','106'), 
+ ('J.K Rowling','107'),
+ ('J.K Rowling','108'), 
+ ('Ashley C','109'),  
+ ('Walt Disney','110'),
+ ('Stephen King','111'), 
+ ('Stephen King','112'),
+ ('Stephen King','113'),
+ ('Fitzgerald','114'),
+ ('Harper Lee','115'),
+ ('Lewis Carroll','116'),
+ ('Mark Lee','117'), 
+ ('William Golding','118'),
+ ('Tolkin','119');
+ 
+SELECT * FROM Book_Authors;
+
+
+CREATE TABLE Library_Branch (
+	BranchID INT IDENTITY(10,1) Primary Key NOT NULL,
+	BranchName VARCHAR (150) NULL,
+	Address VARCHAR (500) NULL,
+);
 
 INSERT INTO Library_Branch
 Values 
@@ -108,78 +99,74 @@ Values
 ('King','1456 King Court N.'), 
 ('Madina','23 Madina Plaza South');
 
+SELECT * FROM Library_Branch;
 
- INSERT INTO Publisher
- VALUES 
- ('Penguin', 'New York', '785-896-9856'),
- ('Random House', 'New York', '456-123-7898'),
- ('Simon and Schuster', 'New York', '785-456-9856'),
- ('HarperCollins', 'LA', '258-896-9856'),
- ('Hachette', 'Seattle', '206-896-9856');
-
- INSERT INTO Book_Authors
- VALUES 
- ('Stephen King','157'), 
- ('Stephen King','158'),
- ('Stephen King','159'),
- ('J.K Rowling','149'),
- ('J.K Rowling','150'), 
- ('J.K Rowling','151'), 
- ('J.K Rowling','152'), 
- ('J.K Rowling','153'), 
- ('J.K Rowling','154'), 
- ('Ashley C','155'),  
- ('William Golding','163'), 
- ('Lewis Carroll','162'), 
- ('Tolkin','165'),
- ('Harper Lee','161'),
- ('Fitzgerald','160'),
- ('Tech Academy','147'),
- ('Mark Lee','164');
+CREATE TABLE Book_Copies(
+	BookID INT
+	FOREIGN KEY (BookID) REFERENCES Book(BookID), 
+	BranchID INT
+	FOREIGN KEY (BranchID) REFERENCES Library_Branch(BranchID), 
+	No_Of_Copies INT NULL
+);
 
  INSERT INTO Book_Copies
  VALUES 
- ('147','22','14'),
- ('148','22','9'),
- ('149','22','25'),
- ('150','22','15'),
- ('151','22','10'),
- ('152','22','4'),
- ('153','22','15'),
- ('154','22','6'),
- ('155','22','30'),
- ('156','22','35'),
- ('157','23','10'),
- ('158','23','10'),
- ('159','23','10'),
- ('160','23','10'),
- ('161','23','10'),
- ('162','23','30'),
- ('163','23','20'),
- ('164','23','10'),
- ('165','23','10'),
- ('166','23','10'),
- ('147','24','14'),
- ('148','24','9'),
- ('149','24','25'),
- ('150','24','15'),
- ('151','24','10'),
- ('152','24','4'),
- ('153','24','15'),
- ('154','24','6'),
- ('155','24','30'),
- ('156','24','35'),
- ('157','25','10'),
- ('158','25','10'),
- ('159','25','10'),
- ('160','25','10'),
- ('161','25','10'),
- ('162','25','30'),
- ('163','25','20'),
- ('164','25','10'),
- ('165','25','10'),
- ('166','25','10');
+ ('100','10','14'),
+ ('101','10','9'),
+ ('102','10','25'),
+ ('103','10','15'),
+ ('104','10','10'),
+ ('105','10','4'),
+ ('106','10','15'),
+ ('107','10','6'),
+ ('108','10','30'),
+ ('109','10','35'),
+ ('118','10','35'),
 
+ ('112','11','10'),
+ ('113','11','10'),
+ ('114','11','10'),
+ ('115','11','10'),
+ ('116','11','10'),
+ ('117','11','30'),
+ ('118','11','20'),
+ ('119','11','10'),
+ ('109','11','10'),
+ ('108','11','10'),
+
+ ('107','12','14'),
+ ('106','12','9'),
+ ('105','12','25'),
+ ('104','12','15'),
+ ('103','12','10'),
+ ('102','12','4'),
+ ('101','12','15'),
+ ('100','12','6'),
+ ('119','12','30'),
+ ('118','12','35'),
+
+ ('100','13','10'),
+ ('101','13','10'),
+ ('117','13','10'),
+ ('116','13','10'),
+ ('104','13','10'),
+ ('105','13','30'),
+ ('106','13','20'),
+ ('107','13','10'),
+ ('108','13','10'),
+ ('109','13','10'),
+ ('110','13','10'),
+ ('111','13','10'),
+ ('113','13','10');
+
+SELECT * FROM Book_Copies;
+
+CREATE TABLE Borrower (
+	CardNo INT IDENTITY (23,1) PRIMARY KEY,
+	Name VARCHAR (150) NOT NULL,
+	Address VARCHAR (150) NULL,
+	Phone VARCHAR (50) NULL,
+);
 
 INSERT INTO Borrower
 VALUES
@@ -192,68 +179,84 @@ VALUES
 ('Michael','45 Purple Lane','425-698-9586'),
 ('Angela','586 Office Circle','425-698-9586');
 
+SELECT * FROM Borrower;
+
+CREATE TABLE Book_Loans(
+	BookID INT
+	FOREIGN KEY (BookID) REFERENCES Book(BookID), 
+	BranchID INT
+	FOREIGN KEY (BranchID) REFERENCES Library_Branch(BranchID),
+	CardNo INT 
+	FOREIGN KEY (CardNo) REFERENCES Borrower(CardNo),
+	DateOut DATE NULL,
+	DueDate DATE NULL,
+);
+
 INSERT INTO Book_Loans
 VALUES
-('147','22','75','3/10/18','3/30/18'),
-('148','22','75','3/10/18','3/30/18'),
-('149','22','75','3/10/18','3/30/18'),
-('150','22','75','3/10/18','3/30/18'),
-('151','22','75','3/10/18','3/30/18'),
+('100','10','25','3/10/18','3/30/18'),
+('101','10','25','3/10/18','3/30/18'),
+('102','10','25','3/10/18','3/30/18'),
+('103','10','25','3/10/18','3/30/18'),
+('104','10','25','3/10/18','3/30/18'),
 
-('161','25','76','3/10/18','3/30/18'),
-('160','25','76','3/10/18','3/30/18'),
-('159','25','76','3/10/18','3/30/18'),
-('158','25','76','3/10/18','3/30/18'),
-('157','23','76','3/10/18','3/30/18'),
+('105','11','26','3/10/18','3/30/18'),
+('106','11','26','3/10/18','3/30/18'),
+('107','11','26','3/10/18','3/30/18'),
+('108','11','26','3/10/18','3/30/18'),
+('109','11','26','3/10/18','3/30/18'),
 
-('161','25','77','3/10/18','3/30/18'),
-('160','25','77','3/10/18','3/30/18'),
-('159','25','77','3/10/18','3/30/18'),
-('158','25','77','3/10/18','3/30/18'),
-('158','25','77','3/10/18','3/30/18'),
+('110','11','23','3/10/18','3/30/18'),
+('111','11','23','3/10/18','3/30/18'),
+('112','11','23','3/10/18','3/30/18'),
+('113','11','23','3/10/18','3/30/18'),
+('114','11','23','3/10/18','3/30/18'),
 
-('147','22','77','3/10/18','3/30/18'),
-('148','22','77','3/10/18','3/30/18'),
-('149','22','77','3/10/18','3/30/18'),
-('150','22','77','3/10/18','3/30/18'),
-('151','22','77','3/10/18','3/30/18'),
+('115','12','24','3/10/18','3/30/18'),
+('116','12','24','3/10/18','3/30/18'),
+('117','12','24','3/10/18','3/30/18'),
+('118','12','24','3/10/18','3/30/18'),
+('119','12','24','3/10/18','3/30/18'),
 
-('147','22','71','1/8/18','1/18/18'),
-('148','22','71','1/8/18','1/18/18'),
-('149','22','71','1/8/18','1/18/18'),
-('150','22','71','1/8/18','1/18/18'),
-('151','22','71','1/8/18','1/18/18'),
-('152','22','71','1/8/18','1/18/18'),
+('100','12','27','1/8/18','1/18/18'),
+('101','12','27','1/8/18','1/18/18'),
+('102','12','27','1/8/18','1/18/18'),
+('103','12','27','1/8/18','1/18/18'),
+('104','12','27','1/8/18','1/18/18'),
+('105','12','27','1/8/18','1/18/18'),
 
-('148','24','72','3/8/18','3/18/18'),
-('149','24','72','3/8/18','3/18/18'),
-('150','24','72','3/8/18','3/18/18'),
-('151','24','72','3/8/18','3/18/18'),
-('152','24','72','3/8/18','3/18/18'),
-('153','24','72','3/8/18','3/18/18'),
-('154','24','72','3/8/18','3/18/18'),
-('155','24','72','3/8/18','3/18/18'),
-('156','24','72','3/8/18','3/18/18'),
+('106','13','28','3/8/18','3/18/18'),
+('107','13','28','3/8/18','3/18/18'),
+('108','13','28','3/8/18','3/18/18'),
+('109','13','28','3/8/18','3/18/18'),
+('110','13','28','3/8/18','3/18/18'),
+('111','13','28','3/8/18','3/18/18'),
+('113','13','28','3/8/18','3/18/18'),
+('112','13','28','3/8/18','3/18/18'),
+('114','13','28','3/8/18','3/18/18'),
 
 
-('166','25','74','3/10/18','3/30/18'),
-('165','25','74','3/10/18','3/30/18'),
-('164','25','74','3/10/18','3/30/18'),
-('163','25','74','3/10/18','3/30/18'),
-('162','25','74','3/10/18','3/30/18'),
-('161','25','74','3/10/18','3/30/18'),
-('160','25','74','3/10/18','3/30/18'),
-('159','25','74','3/10/18','3/30/18'),
-('158','25','74','3/10/18','3/30/18'),
-('158','25','74','3/10/18','3/30/18'),
+('115','13','29','3/10/18','3/30/18'),
+('116','13','29','3/10/18','3/30/18'),
+('117','13','29','3/10/18','3/30/18'),
+('118','13','29','3/10/18','3/30/18'),
+('119','13','29','3/10/18','3/30/18'),
+('100','10','29','3/10/18','3/30/18'),
+('101','10','29','3/10/18','3/30/18'),
+('102','10','29','3/10/18','3/30/18'),
+('103','10','29','3/10/18','3/30/18'),
+('104','10','29','3/10/18','3/30/18'),
 
-('157','23','73','3/10/18','3/30/18'),
-('158','23','73','3/10/18','3/30/18'),
-('159','23','73','3/10/18','3/30/18'),
-('160','23','73','3/10/18','3/30/18'),
-('161','23','73','3/10/18','3/30/18');
+('105','11','25','6/12/18','6/30/18'),
+('106','11','25','6/12/18','6/30/18'),
+('107','11','25','6/12/18','6/30/18'),
+('108','11','25','6/12/18','6/30/18'),
+('109','11','25','6/12/18','6/30/18');
 
 SELECT * FROM Book_Loans;
+
+
+
 
 
 /*PROCEDURE DRILL 1*/
