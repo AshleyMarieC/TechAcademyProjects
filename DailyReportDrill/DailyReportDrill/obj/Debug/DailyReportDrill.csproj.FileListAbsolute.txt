@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\DailyReportDrill\DailyReportDrill\bin\Debug\DailyReportDrill.exe.config
+C:\Users\Ashley\source\repos\DailyReportDrill\DailyReportDrill\bin\Debug\DailyReportDrill.exe
+C:\Users\Ashley\source\repos\DailyReportDrill\DailyReportDrill\bin\Debug\DailyReportDrill.pdb
+C:\Users\Ashley\source\repos\DailyReportDrill\DailyReportDrill\obj\Debug\DailyReportDrill.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\DailyReportDrill\DailyReportDrill\obj\Debug\DailyReportDrill.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\DailyReportDrill\DailyReportDrill\obj\Debug\DailyReportDrill.exe
+C:\Users\Ashley\source\repos\DailyReportDrill\DailyReportDrill\obj\Debug\DailyReportDrill.pdb
