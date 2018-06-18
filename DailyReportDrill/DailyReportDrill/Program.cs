@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace DailyReportDrill
 {
@@ -11,7 +11,8 @@ namespace DailyReportDrill
             Console.WriteLine("What course are you on?");
             string courseNum = Console.ReadLine();
             Console.WriteLine("What page number?");
-            string pageNum = Console.ReadLine();
+            int pageNum;
+            pageNum = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Do you need help with anything? Please answer “true” or “false”.");
             bool needHelp;
@@ -22,7 +23,8 @@ namespace DailyReportDrill
             Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific.");
             string Feedback = Console.ReadLine();
             Console.WriteLine("How many hours did you study today?");
-            string hoursStudied = Console.ReadLine();
+            double hoursStudied;
+            hoursStudied = double.Parse(Console.ReadLine());
 
             Console.WriteLine("“Thank you for your answers. An Instructor will respond to this shortly. Have a great day!” ");
             Console.ReadLine();
