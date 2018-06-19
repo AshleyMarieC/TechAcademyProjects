@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\Package Express Branching Excercise\Package Express Branching Excercise\obj\Debug\Package Express Branching Excercise.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\Package Express Branching Excercise\Package Express Branching Excercise\obj\Debug\Package Express Branching Excercise.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Package Express Branching Excercise\Package Express Branching Excercise\bin\Debug\Package Express Branching Excercise.exe.config
+C:\Users\Ashley\source\repos\Package Express Branching Excercise\Package Express Branching Excercise\bin\Debug\Package Express Branching Excercise.exe
+C:\Users\Ashley\source\repos\Package Express Branching Excercise\Package Express Branching Excercise\bin\Debug\Package Express Branching Excercise.pdb
+C:\Users\Ashley\source\repos\Package Express Branching Excercise\Package Express Branching Excercise\obj\Debug\Package Express Branching Excercise.exe
+C:\Users\Ashley\source\repos\Package Express Branching Excercise\Package Express Branching Excercise\obj\Debug\Package Express Branching Excercise.pdb
