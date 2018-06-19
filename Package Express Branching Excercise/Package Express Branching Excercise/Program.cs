@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 
 namespace Package_Express_Branching_Excercise
@@ -8,9 +8,8 @@ namespace Package_Express_Branching_Excercise
         static void Main()
         {
             Console.WriteLine("Welcome to Package Express. Please follow the instructions below \nPlease enter your package weight:");
-            string enterWeight = Console.ReadLine();
-            double weight = Convert.ToDouble(enterWeight);
-            if (weight > 50)
+            double enterWeight = Convert.ToDouble(Console.ReadLine());
+            if (enterWeight > 50)
             {
                 Console.WriteLine("ERROR: Package too heavy to be shipped via Package Express. Have a good day.");
                 Console.ReadLine();
@@ -18,15 +17,12 @@ namespace Package_Express_Branching_Excercise
             else
             {
                 Console.WriteLine("Please enter the package width:");
-                string enterWidth = Console.ReadLine();
+                double width = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Please enter the package height:");
-                string enterHeight = Console.ReadLine();
+                double height = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Please enter the package length:");
-                string enterLength = Console.ReadLine();
+                double length = Convert.ToDouble(Console.ReadLine());
 
-                double width = Convert.ToDouble(enterWidth);
-                double height = Convert.ToDouble(enterHeight);
-                double length = Convert.ToDouble(enterLength);
 
                 if (width + height + length > 50)
                 {
