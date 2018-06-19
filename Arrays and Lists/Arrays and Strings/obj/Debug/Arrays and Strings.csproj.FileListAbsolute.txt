@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\Arrays and Strings\Arrays and Strings\bin\Debug\Arrays and Strings.exe.config
+C:\Users\Ashley\source\repos\Arrays and Strings\Arrays and Strings\bin\Debug\Arrays and Strings.exe
+C:\Users\Ashley\source\repos\Arrays and Strings\Arrays and Strings\bin\Debug\Arrays and Strings.pdb
+C:\Users\Ashley\source\repos\Arrays and Strings\Arrays and Strings\obj\Debug\Arrays and Strings.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\Arrays and Strings\Arrays and Strings\obj\Debug\Arrays and Strings.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Arrays and Strings\Arrays and Strings\obj\Debug\Arrays and Strings.exe
+C:\Users\Ashley\source\repos\Arrays and Strings\Arrays and Strings\obj\Debug\Arrays and Strings.pdb
