@@ -22,7 +22,7 @@ namespace Package_Express_Branching_Excercise
                 double height = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Please enter the package length:");
                 double length = Convert.ToDouble(Console.ReadLine());
-
+               
 
                 if (width + height + length > 50)
                 {
@@ -31,7 +31,7 @@ namespace Package_Express_Branching_Excercise
                 }
                 else
                 {
-                    double total = width + height + length * 100;
+                    double total = (width + height + length) * enterWeight / 100;
                     string quote = string.Format("{0:c}", Convert.ToDecimal(total));
                     Console.WriteLine("Your estimated total for shipping this package is:"+quote);
                     Console.ReadLine();
