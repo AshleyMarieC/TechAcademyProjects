@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\ClassExcercise\ClassExcercise\bin\Debug\ClassExcercise.exe.config
+C:\Users\Ashley\source\repos\ClassExcercise\ClassExcercise\bin\Debug\ClassExcercise.exe
+C:\Users\Ashley\source\repos\ClassExcercise\ClassExcercise\bin\Debug\ClassExcercise.pdb
+C:\Users\Ashley\source\repos\ClassExcercise\ClassExcercise\obj\Debug\ClassExcercise.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\ClassExcercise\ClassExcercise\obj\Debug\ClassExcercise.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\ClassExcercise\ClassExcercise\obj\Debug\ClassExcercise.exe
+C:\Users\Ashley\source\repos\ClassExcercise\ClassExcercise\obj\Debug\ClassExcercise.pdb
