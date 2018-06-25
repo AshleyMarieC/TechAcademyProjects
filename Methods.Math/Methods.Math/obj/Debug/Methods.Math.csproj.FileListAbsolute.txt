@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\Methods.Math\Methods.Math\bin\Debug\Methods.Math.exe.config
+C:\Users\Ashley\source\repos\Methods.Math\Methods.Math\bin\Debug\Methods.Math.exe
+C:\Users\Ashley\source\repos\Methods.Math\Methods.Math\bin\Debug\Methods.Math.pdb
+C:\Users\Ashley\source\repos\Methods.Math\Methods.Math\obj\Debug\Methods.Math.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\Methods.Math\Methods.Math\obj\Debug\Methods.Math.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Methods.Math\Methods.Math\obj\Debug\Methods.Math.exe
+C:\Users\Ashley\source\repos\Methods.Math\Methods.Math\obj\Debug\Methods.Math.pdb
