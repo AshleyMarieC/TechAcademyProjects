@@ -21,4 +21,12 @@ namespace ClassExcercise
             return Convert.ToString(string1.Length);
         }
     }
+    
+    public class class2
+    {
+        public int multiply(int num1, int num2= 5)
+        {
+            return num1 * num2;
+        }
+    }
 }
