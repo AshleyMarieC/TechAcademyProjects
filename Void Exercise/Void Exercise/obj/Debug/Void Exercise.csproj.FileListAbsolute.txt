@@ -1,0 +1,6 @@
+C:\Users\Ashley\source\repos\Void Exercise\Void Exercise\bin\Debug\Void Exercise.exe.config
+C:\Users\Ashley\source\repos\Void Exercise\Void Exercise\bin\Debug\Void Exercise.exe
+C:\Users\Ashley\source\repos\Void Exercise\Void Exercise\bin\Debug\Void Exercise.pdb
+C:\Users\Ashley\source\repos\Void Exercise\Void Exercise\obj\Debug\Void Exercise.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Void Exercise\Void Exercise\obj\Debug\Void Exercise.exe
+C:\Users\Ashley\source\repos\Void Exercise\Void Exercise\obj\Debug\Void Exercise.pdb
