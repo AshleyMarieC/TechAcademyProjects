@@ -8,10 +8,12 @@ namespace Void_Exercise
 {
     public class voidClass
     {
-        public static void Method(int number4, int number2, out int result3, out int result2)
+        public static int result;
+        public void Method(int number4, int number2)
         {
-            result3 = number4 * 10;
-            result2 = number2;
+            result = number4 * 10;
+            Console.WriteLine(number2);
         }
     }
 }
+
