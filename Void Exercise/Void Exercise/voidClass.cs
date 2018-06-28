@@ -8,7 +8,7 @@ namespace Void_Exercise
 {
     public class voidClass
     {
-        public static int result;
+        public int result;
         public void Method(int number4, int number2)
         {
             result = number4 * 10;
