@@ -15,7 +15,7 @@ namespace Void_Exercise
 
             VoidClass.Method(number4:16, number2: 10);
 
-            Console.WriteLine(voidClass.result);
+            Console.WriteLine(VoidClass.result);
             Console.ReadLine();
         }
     }
