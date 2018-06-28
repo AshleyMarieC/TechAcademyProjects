@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\Assignment Pg69\Assignment Pg69\bin\Debug\Assignment Pg69.exe.config
+C:\Users\Ashley\source\repos\Assignment Pg69\Assignment Pg69\bin\Debug\Assignment Pg69.exe
+C:\Users\Ashley\source\repos\Assignment Pg69\Assignment Pg69\bin\Debug\Assignment Pg69.pdb
+C:\Users\Ashley\source\repos\Assignment Pg69\Assignment Pg69\obj\Debug\Assignment Pg69.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\Assignment Pg69\Assignment Pg69\obj\Debug\Assignment Pg69.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Assignment Pg69\Assignment Pg69\obj\Debug\Assignment Pg69.exe
+C:\Users\Ashley\source\repos\Assignment Pg69\Assignment Pg69\obj\Debug\Assignment Pg69.pdb
