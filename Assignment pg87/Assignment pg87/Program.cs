@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment_pg87
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Number number = new Number()
+            {
+                Amount = 156
+            };
+            Console.WriteLine(number.Amount);
+            Console.ReadLine();
+            
+        }
+    }
+}
