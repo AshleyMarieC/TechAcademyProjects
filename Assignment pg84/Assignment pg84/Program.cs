@@ -18,11 +18,11 @@ namespace Assignment_pg84
             {
                 DaysOfTheWeek today = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), input);
 
-                Console.WriteLine("{0} is a good day to have a good day!", today);
+                Console.WriteLine("{0} seems like a good day to leave work early!", today);
             }
             catch
             {
-                Console.WriteLine(input + " is not a day of the week!");
+                Console.WriteLine(input + " is not a day of the week! Please enter an actual day of the week.");
             }
 
             Console.ReadLine();
