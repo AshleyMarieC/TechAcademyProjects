@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\Assignment pg84\Assignment pg84\bin\Debug\Assignment pg84.exe.config
+C:\Users\Ashley\source\repos\Assignment pg84\Assignment pg84\bin\Debug\Assignment pg84.exe
+C:\Users\Ashley\source\repos\Assignment pg84\Assignment pg84\bin\Debug\Assignment pg84.pdb
+C:\Users\Ashley\source\repos\Assignment pg84\Assignment pg84\obj\Debug\Assignment pg84.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\Assignment pg84\Assignment pg84\obj\Debug\Assignment pg84.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Assignment pg84\Assignment pg84\obj\Debug\Assignment pg84.exe
+C:\Users\Ashley\source\repos\Assignment pg84\Assignment pg84\obj\Debug\Assignment pg84.pdb
