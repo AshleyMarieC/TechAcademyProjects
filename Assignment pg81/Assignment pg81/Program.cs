@@ -10,20 +10,36 @@ namespace Assignment_pg81
     {
         static void Main(string[] args)
         {
+
             Employee<string> employee = new Employee<string>();
             {
-                employee.Things.Add("desk");
-                employee.Things.Add("monitor");
-                employee.Things.Add("keyboard");
+                employee.Things = new List<string>
+                {
+                    "monitor", "keyboard", "desk"
+                };
+
+                foreach (var thing in employee.Things)
+                {
+                    Console.WriteLine(thing);
+                }
             }
+    
 
             Employee<int> employee2 = new Employee<int>();
             {
-                employee2.Things.Add(2);
-                employee2.Things.Add(10);
-                employee2.Things.Add(15);
+                employee2.Things = new List<int>
+                {
+                    2,10,15
+                };
+
+                foreach (var thing in employee2.Things)
+                {
+                    Console.WriteLine(thing);
+                }
 
             }
+
+            Console.ReadLine();
 
 
         }
