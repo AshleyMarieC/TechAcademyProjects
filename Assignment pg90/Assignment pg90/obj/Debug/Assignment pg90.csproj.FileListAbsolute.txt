@@ -1,0 +1,7 @@
+c:\users\ashley\source\repos\Assignment pg90\Assignment pg90\obj\Debug\Assignment pg90.csprojAssemblyReference.cache
+c:\users\ashley\source\repos\Assignment pg90\Assignment pg90\obj\Debug\Assignment pg90.csproj.CoreCompileInputs.cache
+c:\users\ashley\source\repos\Assignment pg90\Assignment pg90\bin\Debug\Assignment pg90.exe.config
+c:\users\ashley\source\repos\Assignment pg90\Assignment pg90\bin\Debug\Assignment pg90.exe
+c:\users\ashley\source\repos\Assignment pg90\Assignment pg90\bin\Debug\Assignment pg90.pdb
+c:\users\ashley\source\repos\Assignment pg90\Assignment pg90\obj\Debug\Assignment pg90.exe
+c:\users\ashley\source\repos\Assignment pg90\Assignment pg90\obj\Debug\Assignment pg90.pdb
