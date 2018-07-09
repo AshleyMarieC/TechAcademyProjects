@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\Assignment pg106\Assignment pg106\bin\Debug\Assignment pg106.exe.config
+C:\Users\Ashley\source\repos\Assignment pg106\Assignment pg106\bin\Debug\Assignment pg106.exe
+C:\Users\Ashley\source\repos\Assignment pg106\Assignment pg106\bin\Debug\Assignment pg106.pdb
+C:\Users\Ashley\source\repos\Assignment pg106\Assignment pg106\obj\Debug\Assignment pg106.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\Assignment pg106\Assignment pg106\obj\Debug\Assignment pg106.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Assignment pg106\Assignment pg106\obj\Debug\Assignment pg106.exe
+C:\Users\Ashley\source\repos\Assignment pg106\Assignment pg106\obj\Debug\Assignment pg106.pdb
