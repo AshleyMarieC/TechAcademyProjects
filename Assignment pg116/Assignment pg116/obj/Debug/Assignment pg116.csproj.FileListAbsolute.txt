@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\Assignment pg116\Assignment pg116\bin\Debug\Assignment pg116.exe.config
+C:\Users\Ashley\source\repos\Assignment pg116\Assignment pg116\bin\Debug\Assignment pg116.exe
+C:\Users\Ashley\source\repos\Assignment pg116\Assignment pg116\bin\Debug\Assignment pg116.pdb
+C:\Users\Ashley\source\repos\Assignment pg116\Assignment pg116\obj\Debug\Assignment pg116.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\Assignment pg116\Assignment pg116\obj\Debug\Assignment pg116.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Assignment pg116\Assignment pg116\obj\Debug\Assignment pg116.exe
+C:\Users\Ashley\source\repos\Assignment pg116\Assignment pg116\obj\Debug\Assignment pg116.pdb
