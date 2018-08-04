@@ -1,0 +1,7 @@
+c:\users\ashley\source\repos\CarInsurance\CarInsurance\bin\Debug\CarInsurance.exe.config
+c:\users\ashley\source\repos\CarInsurance\CarInsurance\bin\Debug\CarInsurance.exe
+c:\users\ashley\source\repos\CarInsurance\CarInsurance\bin\Debug\CarInsurance.pdb
+c:\users\ashley\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csprojAssemblyReference.cache
+c:\users\ashley\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CoreCompileInputs.cache
+c:\users\ashley\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.exe
+c:\users\ashley\source\repos\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
