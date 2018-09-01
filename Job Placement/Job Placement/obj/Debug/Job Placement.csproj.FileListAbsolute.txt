@@ -1,0 +1,7 @@
+C:\Users\Ashley\source\repos\Job Placement\Job Placement\obj\Debug\Job Placement.csprojAssemblyReference.cache
+C:\Users\Ashley\source\repos\Job Placement\Job Placement\obj\Debug\Job Placement.csproj.CoreCompileInputs.cache
+C:\Users\Ashley\source\repos\Job Placement\Job Placement\bin\Debug\Job Placement.exe.config
+C:\Users\Ashley\source\repos\Job Placement\Job Placement\bin\Debug\Job Placement.exe
+C:\Users\Ashley\source\repos\Job Placement\Job Placement\bin\Debug\Job Placement.pdb
+C:\Users\Ashley\source\repos\Job Placement\Job Placement\obj\Debug\Job Placement.exe
+C:\Users\Ashley\source\repos\Job Placement\Job Placement\obj\Debug\Job Placement.pdb
